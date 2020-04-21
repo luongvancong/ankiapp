@@ -1,0 +1,63 @@
+#avatar {
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+}
+.form-filter label {
+	margin-right: 5px;
+}
+.checkbox-list {
+	margin: 0;
+}
+.checkbox-list li {
+	padding-left: 0;
+	padding-right: 10px;
+	margin-bottom: 5px;
+}
+.checkbox-list label {
+	cursor: pointer;
+}
+.checkbox-list li p {
+	font-style: 12px;
+	font-weight: normal;
+	font-style: italic;
+	padding-left: 15px;
+}
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+div.tagsinput {
+	width: 100% !important;
+}
+ul.token-input-list {
+	width: 100% !important;
+}
+
+.permission-group-name {
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+}
+
+.permission-list {
+	overflow: hidden;
+	padding-left: 0;
+}
+.permission-item {
+	display: inline-block;
+	margin-right: 15px;
+}
+.permission-block-head {
+	font-size: 15px;
+	margin-bottom: 5px;
+	color: #9896da;
+}
+.permission-group {
+	padding-bottom: 15px;
+}

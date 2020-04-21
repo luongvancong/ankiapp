@@ -1,0 +1,16 @@
+@font-face {
+    font-family: ElleFuturaBold;
+    src: url('/fonts/Elle_Futura/Elle-Futura-Bold.otf');
+}
+@font-face {
+    font-family: ElleFuturaBoldOblique;
+    src: url('/fonts/Elle_Futura/Elle-Futura-BoldOblique.otf');
+}
+@font-face {
+    font-family: ElleFuturaBook;
+    src: url('/fonts/Elle_Futura/Elle-Futura-Book.otf');
+}
+@font-face {
+    font-family: ElleFuturaBookOblique;
+    src: url('/fonts/Elle_Futura/Elle-Futura-BookOblique.otf');
+}

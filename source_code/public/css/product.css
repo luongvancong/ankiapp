@@ -1,0 +1,91 @@
+#searchon {
+	margin-top: 10px;
+}
+#search {
+	width: 250px
+}
+.product-item {
+	overflow: hidden;
+	padding: 15px;
+	border-bottom: 1px solid #eaeaea;
+}
+.img-link {
+	width: 100px;
+	display: block;
+	height: 100px;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+}
+.product-item img {
+	width: 100%;
+}
+h2.title {
+	border-bottom: 1px solid #3c763d;
+}
+.pro-img {
+	display: block;
+	margin-bottom: 10px;
+}
+.pro-link {
+	width: 90%;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.pdt-posts a, .pdt-videos a {
+	color: #424242;
+}
+.pdt-product-name {
+	font-size: 25px;
+}
+.img-responsive {
+	display: inline-block !important;
+}
+.pdt-price {
+	font-size: 20px;
+}
+.simg-link {
+	width: 48px;
+	height: 50px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin: 0 2px;
+}
+.simg-img {
+	width: 100%;
+	height: auto;
+}
+.pdt-small-img {
+	margin-top: 25px;
+}
+.highlight_text {
+   color: #F9E022;
+}
+#home-slider .item {
+	padding: 0 100px;
+}
+#home-slider .item img {
+	display: block;
+	height: auto;
+	float: left;
+	margin-right: 50px;
+}
+#footer {
+	width: 100%;
+	background-color: #666;
+	color: #fff;
+}
+#footer > div {
+	padding: 20px 40px;
+}
+#footer h3 {
+	margin: 0 0 15px 0;
+}
+#footer > p {
+	background-color: #333;
+	text-align: center;
+	padding: 5px;
+}

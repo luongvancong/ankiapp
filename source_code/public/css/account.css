@@ -1,0 +1,27 @@
+.auction-head {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.auction-sapo h2 {
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+.auction-header {
+    padding-bottom: 30px;
+}
+.acc-igno-heading {
+    font-size: 14px;
+}
+.account-date-picker {
+    padding-left: 8px;
+    padding-top: 4px;
+    outline: none;
+    padding-bottom: 4px;
+    border: 1px solid #ccc;
+}
+
+.account-auction-filter {
+    padding-bottom: 15px;
+}

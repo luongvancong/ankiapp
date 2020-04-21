@@ -1,0 +1,70 @@
+#hoidap-page .heading {
+  font-size: 20px;
+}
+#hoidap-page .sub-heading {
+  font-size: 14px;
+}
+#hoidap-page .hoidap-item .title {
+  font-size: 14px;
+}
+#hoidap-page .hoidap-item .title a {
+  font-size: 14px;
+  color: #383838;
+}
+#hoidap-page .hoidap-item .teaser {
+  font-size: 12px;
+  overflow: hidden;
+}
+#hoidap-page-detail .heading {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#hoidap-page-detail .question {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}
+#hoidap-page-detail .question .user-name {
+  font-weight: bold;
+}
+#hoidap-page-detail .question .question-time {
+  font-size: 12px;
+}
+#hoidap-page-detail .question .question-info {
+  padding-left: 10px;
+}
+#hoidap-page-detail .question .question-info p {
+  padding: 0;
+  margin: 0;
+}
+#hoidap-page-detail .question-des {
+  padding-top: 10px;
+  font-size: 16px;
+}
+#hoidap-page-detail .answer-container {
+  margin-top: 20px;
+}
+#hoidap-page-detail .answer-container .user {
+  margin-bottom: 15px;
+}
+#hoidap-page-detail .answer-container .user .info {
+  padding-left: 10px;
+}
+#hoidap-page-detail .answer-container .user .info .user-name {
+  font-weight: bold;
+}
+#hoidap-page-detail .answer-container .user .info .answer-time {
+  font-size: 11px;
+}
+#hoidap-page-detail .answer-container .user p {
+  margin: 0;
+  padding: 0;
+}
+#hoidap-page-detail .answer-container .ans-heading {
+  font-size: 14px;
+}
+#hoidap-page-detail .answer-container .answers {
+  padding-top: 10px;
+}
+#hoidap-page-detail .answer-container .answers .item {
+  margin-bottom: 20px;
+}

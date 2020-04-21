@@ -1,0 +1,9 @@
+#rating-star-global{
+    padding-top:10px
+}
+#rating-star-global .rating-text{
+    padding-left:10px
+}
+#rating-star-global .count-user-rating,#rating-star-global .rating-text{
+    padding-top:3px;font-size:12px
+}

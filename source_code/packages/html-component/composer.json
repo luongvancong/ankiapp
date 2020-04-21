@@ -1,0 +1,26 @@
+{
+  "name": "blackbear/html-component",
+  "description": "The html component",
+  "keywords": ["html component", "html tag"],
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Justin Luong",
+      "email": "cong.itsoft@gmail.com",
+      "homepage": "https://www.facebook.com/cong.itsoft",
+      "role": "Creator"
+    }
+  ],
+  "require-dev": {
+    "fzaninotto/faker": "~1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "BlackBear\\HtmlComponent\\": "src/"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  }
+}

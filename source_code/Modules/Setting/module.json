@@ -1,0 +1,15 @@
+{
+    "name": "Setting",
+    "alias": "setting",
+    "description": "Cấu hình hệ thống",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Setting\\Providers\\SettingServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

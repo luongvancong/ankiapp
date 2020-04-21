@@ -1,0 +1,25 @@
+#raovat-page .heading {
+  font-size: 20px;
+}
+#raovat-page .sub-heading {
+  font-size: 14px;
+}
+#raovat-page .classifield-item .image .crop {
+  height: 100px;
+  overflow: hidden;
+}
+#raovat-page .classifield-item .image img {
+  height: 100%;
+  width: auto;
+}
+#raovat-page .classifield-item .title {
+  font-size: 14px;
+}
+#raovat-page .classifield-item .title a {
+  font-size: 14px;
+  color: #383838;
+}
+#raovat-page .classifield-item .teaser {
+  font-size: 12px;
+  overflow: hidden;
+}
