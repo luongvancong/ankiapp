@@ -4,11 +4,12 @@ namespace Modules\User\Repositories;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Laravel\Passport\HasApiTokens;
 use Modules\User\Repositories\Chmod\Permission;
 
 class User extends Authenticatable
 {
-    use Notifiable;
+    use HasApiTokens, Notifiable;
 
     /**
      * The database table used by the model.

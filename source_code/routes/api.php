@@ -13,7 +13,22 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+Route::group(['prefix' => 'v1'], function() {
+    Route::group(['prefix' => 'me'], function() {
+       Route::get('/', 'MeController@getMe');
+    });
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+    Route::group(['prefix' => 'desks'], function() {
+        Route::post('/', 'DeskController@store');
+        Route::get('/{id}', 'DeskController@show');
+        Route::patch('/{id}', 'DeskController@update');
+        Route::delete('/{id}', 'DeskController@destroy');
+    });
+
+    Route::group(['prefix' => 'cards'], function() {
+        Route::post('/', 'CardController@store');
+        Route::get('/{id}', 'CardController@show');
+        Route::patch('/{id}', 'CardController@update');
+        Route::delete('/{id}', 'CardController@destroy');
+    });
 });

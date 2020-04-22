@@ -31,6 +31,7 @@
         "justin/laravel-modules": "dev-laravel-6",
         "laravel/framework": "^7.0",
         "laravel/helpers": "^1.2",
+        "laravel/passport": "^8.4",
         "laravel/socialite": "^4.2",
         "laravel/tinker": "^2.0",
         "mews/purifier": "^3.1"

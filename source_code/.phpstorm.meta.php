@@ -5,7 +5,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2020-03-20 07:22:20.
+    * Generated on 2020-04-22 06:28:19.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -59,6 +59,8 @@ namespace PHPSTORM_META {
         'Modules\User\Repositories\UserRepository' => \Modules\User\Repositories\DbUserRepository::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Nwidart\Modules\Contracts\RepositoryInterface' => \Nwidart\Modules\Repository::class,
+        'Psr\Http\Message\ResponseInterface' => \Nyholm\Psr7\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Nyholm\Psr7\ServerRequest::class,
         'Upload' => \App\Hocs\Core\Uploads\Upload::class,
         'Uploader' => \App\Hocs\Core\Uploads\Uploader::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
@@ -238,6 +240,8 @@ namespace PHPSTORM_META {
         'Modules\User\Repositories\UserRepository' => \Modules\User\Repositories\DbUserRepository::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Nwidart\Modules\Contracts\RepositoryInterface' => \Nwidart\Modules\Repository::class,
+        'Psr\Http\Message\ResponseInterface' => \Nyholm\Psr7\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Nyholm\Psr7\ServerRequest::class,
         'Upload' => \App\Hocs\Core\Uploads\Upload::class,
         'Uploader' => \App\Hocs\Core\Uploads\Uploader::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
@@ -417,6 +421,8 @@ namespace PHPSTORM_META {
         'Modules\User\Repositories\UserRepository' => \Modules\User\Repositories\DbUserRepository::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Nwidart\Modules\Contracts\RepositoryInterface' => \Nwidart\Modules\Repository::class,
+        'Psr\Http\Message\ResponseInterface' => \Nyholm\Psr7\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Nyholm\Psr7\ServerRequest::class,
         'Upload' => \App\Hocs\Core\Uploads\Upload::class,
         'Uploader' => \App\Hocs\Core\Uploads\Uploader::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
@@ -596,6 +602,8 @@ namespace PHPSTORM_META {
         'Modules\User\Repositories\UserRepository' => \Modules\User\Repositories\DbUserRepository::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Nwidart\Modules\Contracts\RepositoryInterface' => \Nwidart\Modules\Repository::class,
+        'Psr\Http\Message\ResponseInterface' => \Nyholm\Psr7\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Nyholm\Psr7\ServerRequest::class,
         'Upload' => \App\Hocs\Core\Uploads\Upload::class,
         'Uploader' => \App\Hocs\Core\Uploads\Uploader::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
@@ -775,6 +783,8 @@ namespace PHPSTORM_META {
         'Modules\User\Repositories\UserRepository' => \Modules\User\Repositories\DbUserRepository::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Nwidart\Modules\Contracts\RepositoryInterface' => \Nwidart\Modules\Repository::class,
+        'Psr\Http\Message\ResponseInterface' => \Nyholm\Psr7\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Nyholm\Psr7\ServerRequest::class,
         'Upload' => \App\Hocs\Core\Uploads\Upload::class,
         'Uploader' => \App\Hocs\Core\Uploads\Uploader::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
@@ -954,6 +964,8 @@ namespace PHPSTORM_META {
         'Modules\User\Repositories\UserRepository' => \Modules\User\Repositories\DbUserRepository::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Nwidart\Modules\Contracts\RepositoryInterface' => \Nwidart\Modules\Repository::class,
+        'Psr\Http\Message\ResponseInterface' => \Nyholm\Psr7\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Nyholm\Psr7\ServerRequest::class,
         'Upload' => \App\Hocs\Core\Uploads\Upload::class,
         'Uploader' => \App\Hocs\Core\Uploads\Uploader::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
@@ -1133,6 +1145,8 @@ namespace PHPSTORM_META {
         'Modules\User\Repositories\UserRepository' => \Modules\User\Repositories\DbUserRepository::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Nwidart\Modules\Contracts\RepositoryInterface' => \Nwidart\Modules\Repository::class,
+        'Psr\Http\Message\ResponseInterface' => \Nyholm\Psr7\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Nyholm\Psr7\ServerRequest::class,
         'Upload' => \App\Hocs\Core\Uploads\Upload::class,
         'Uploader' => \App\Hocs\Core\Uploads\Uploader::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
@@ -1312,6 +1326,8 @@ namespace PHPSTORM_META {
         'Modules\User\Repositories\UserRepository' => \Modules\User\Repositories\DbUserRepository::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Nwidart\Modules\Contracts\RepositoryInterface' => \Nwidart\Modules\Repository::class,
+        'Psr\Http\Message\ResponseInterface' => \Nyholm\Psr7\Response::class,
+        'Psr\Http\Message\ServerRequestInterface' => \Nyholm\Psr7\ServerRequest::class,
         'Upload' => \App\Hocs\Core\Uploads\Upload::class,
         'Uploader' => \App\Hocs\Core\Uploads\Uploader::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
