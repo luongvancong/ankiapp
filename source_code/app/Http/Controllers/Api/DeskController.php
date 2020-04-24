@@ -28,6 +28,7 @@ class DeskController extends Controller
     }
 
     public function update($id, DeskRequest $request) {
+        $data = $request->all();
         $data['updated_by'] = $request->user()->id;
         return $this->deskRepository->update($id, $data);
     }

@@ -28,6 +28,8 @@ class CardRepository
             }
         }
 
+        $query->orderBy('front', 'ASC');
+
         return $query->paginate(50);
     }
 
