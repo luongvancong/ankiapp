@@ -21,6 +21,15 @@ class DeskRepository
         $this->model = $model;
     }
 
+    public function filter(array $params) {
+        $query = $this->model->newQuery();
+        if ($createdBy = array_get($params, 'created_by')) {
+            $query->where('created_by', $createdBy);
+        }
+
+        return $query->paginate(25);
+    }
+
     public function getById($id) {
         return $this->model->newQuery()->findOrFail($id);
     }

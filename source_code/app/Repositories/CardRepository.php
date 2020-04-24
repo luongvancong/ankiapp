@@ -19,6 +19,18 @@ class CardRepository
         $this->model = $model;
     }
 
+    public function filter(array $params) {
+        $query = $this->model->newQuery();
+
+        foreach ($params as $key => $value) {
+            if ($key === 'desk_id') {
+                $query->where('desk_id', $value);
+            }
+        }
+
+        return $query->paginate(50);
+    }
+
     public function getById($id) {
         return $this->model->newQuery()->findOrFail($id);
     }

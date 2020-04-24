@@ -16,6 +16,10 @@ class DeskController extends Controller
         $this->deskRepository = $deskRepository;
     }
 
+    public function index(Request $request) {
+        return $this->deskRepository->filter($request->all());
+    }
+
     public function store(DeskRequest $request) {
         $data = $request->all();
         $data['created_by'] = $request->user()->id;
@@ -37,5 +41,11 @@ class DeskController extends Controller
             return response()->json(['count' => 1]);
         }
         return response()->json(['count' => 0]);
+    }
+
+    public function study($id) {
+        $desk = $this->deskRepository->getById($id);
+        $cards = $desk->cards()->orderByRaw("RAND()")->get();
+        return $cards;
     }
 }

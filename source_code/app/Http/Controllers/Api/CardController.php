@@ -22,6 +22,10 @@ class CardController extends Controller
         $this->uploader = app('Uploader');
     }
 
+    public function index(Request $request) {
+        return $this->cardRepository->filter($request->all());
+    }
+
     public function store(CardRequest $request) {
         $data = $request->except(['audio', 'image']);
         $data['created_by'] = $request->user()->id;
