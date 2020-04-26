@@ -3,4 +3,4 @@
 source .env
 #export UID=$(id -u)
 #export GID=$(id -g)
-docker-compose -p $PROJECT up
+docker-compose -p $PROJECT up -d

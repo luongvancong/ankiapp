@@ -35,10 +35,7 @@ class Card extends Model
     ];
 
     public function getAudioAttribute($value) {
-        if ($value) {
-            return url(parse_file_url($value));
-        }
-        return $value;
+        return "https://ssl.gstatic.com/dictionary/static/sounds/oxford/".strtolower($this->attributes['front'])."--_us_1.mp3";
     }
 
     public function getImageAttribute($value) {
