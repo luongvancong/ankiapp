@@ -10,6 +10,8 @@ if( ! function_exists('parse_file_url') ) {
         $explode = explode('___', $image);
         if(isset($explode[1])) {
             return '/'. config('upload.upload_folder') .'/' . date('Y/m/d', $explode[1]) . '/' . $image;
+        } else {
+            return '/' . config('upload.upload_folder') . '/images/' . $image;
         }
     }
 }

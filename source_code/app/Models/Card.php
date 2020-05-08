@@ -15,6 +15,8 @@ use Illuminate\Database\Eloquent\Model;
  * @property string example
  * @property string audio
  * @property string image
+ * @property string ipa
+ * @property string example_vi
  * @property string created_by
  * @property string updated_by
  * @property string created_at
